@@ -15,14 +15,14 @@
     <p>{{passion}}</p>
     <h5>{{ passion.tv }} et {{ passion.sport }}</h5>
 
-    
+    <hr>
     <!-- Exemple d'execution de fonction dans le template -->
     <p>{{ superAffichage() }}</p>
 <!-- Exemple de calcul directement dans le template -->
     <p>{{ 3000+2 }}</p>
     <!-- Exemple d'utilisation de condition ternaire dans le template -->
     <p>{{ name === 'Mathias' ? 'Mathias est un élève ringard' : 'Mathias est un élève cool' }}</p>
-
+ <hr>
      <p>unLivre : {{ unLivre }}</p>
     <p>isOnline : {{ isOnline }}</p>
     <p>unNombre : {{ unNombre }}</p>
@@ -30,12 +30,17 @@
     <p>{{ unObjet }}</p>
     <p>{{ fonctionTest() }}</p>
     <p>Texte avec HTML : {{ html }}</p>
+    <hr>
+    <p>{{ duHTMLTemplate }}</p>
+    <!-- Ceci n'est pas interprété comme du HTML, c'est une chaîne de caractères a-->
+    <!-- Pour interpréter du HTML, on peut utiliser v-html -->
+    <p v-html="duHTMLTemplate"></p>
 </template>
 
 
 
 <script setup>
-
+import { ref } from 'vue';
 // On va déclarer des variables avec let et const
 // Avec les {{ }} on peut afficher les variables dans le template
 const name = 'Mathias';
@@ -59,4 +64,5 @@ function fonctionTest () {
   return 'Hello World'
 }
 const html = '<h1>Du HTML</h1>'
+const duHTMLTemplate = ref('<h1>Du HTML</h1>');
 </script>
