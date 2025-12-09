@@ -4,6 +4,7 @@ import Exercice from './components/Exercice.vue'
 import TpDataBinding from './components/TpDataBinding.vue'
 import Counter from './components/Counter.vue'
 import TpEventBinding from './components/TpEventBinding.vue'
+import Bug from './components/Bug.vue'
 </script>
 
 <template>
@@ -22,6 +23,7 @@ import TpEventBinding from './components/TpEventBinding.vue'
     <TpDataBinding />
     <Counter/>
      <TpEventBinding />
+     <Bug />
   </div>
 </template>
 
