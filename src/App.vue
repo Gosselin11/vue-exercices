@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import Exercice from './components/Exercice.vue'
+import TpDataBinding from './components/TpDataBinding.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Exercice from './components/Exercice.vue'
     <Exercice/>
 
     <HelloWorld msg="Vite + Vue" />
+    <TpDataBinding />
   </div>
 </template>
 
