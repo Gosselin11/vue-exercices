@@ -2,9 +2,9 @@
     <div>
         <h1>EventBinding (gérer les event)</h1>
 
-        <button @click="decrement">-</button>
+        <button @click.left="decrement">-</button>
         <span>le nombre : {{ count }}</span>
-        <button @click="increment">+</button>
+        <button @click.right="increment">+</button>
     </div>
 </template>
 
@@ -14,9 +14,9 @@ import {ref} from 'vue'
 const count = ref(0)
 
 function decrement () {
-    count.value--
+    count.value = count.value - 20
 }
 function increment (){
-    count.value++
+    count.value = count.value + 11
 }
 </script>
