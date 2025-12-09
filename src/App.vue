@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import Exercice from './components/Exercice.vue'
 import TpDataBinding from './components/TpDataBinding.vue'
 import Counter from './components/Counter.vue'
+import TpEventBinding from './components/TpEventBinding.vue'
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import Counter from './components/Counter.vue'
     <HelloWorld msg="Vite + Vue" />
     <TpDataBinding />
     <Counter/>
+     <TpEventBinding />
   </div>
 </template>
 
