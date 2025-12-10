@@ -1,10 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Exercice from './components/Exercice.vue'
-import TpDataBinding from './components/TpDataBinding.vue'
-import Counter from './components/Counter.vue'
-import TpEventBinding from './components/TpEventBinding.vue'
-import Bug from './components/Bug.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import Exercice from './components/Exercice.vue'
+// import TpDataBinding from './components/TpDataBinding.vue'
+// import Counter from './components/Counter.vue'
+// import TpEventBinding from './components/TpEventBinding.vue'
+// import Bug from './components/Bug.vue'
+import TpReactivite from './components/TpReactivite.vue'
 </script>
 
 <template>
@@ -24,6 +25,7 @@ import Bug from './components/Bug.vue'
     <Counter/>
      <TpEventBinding />
      <Bug />
+     <TpReactivite />
   </div>
 </template>
 
