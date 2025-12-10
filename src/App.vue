@@ -6,12 +6,13 @@
 // import TpEventBinding from './components/TpEventBinding.vue'
 // import Bug from './components/Bug.vue'
 // import TpReactivite from './components/TpReactivite.vue'
-import ExerciceDynamique from './components/ExerciceDynamique.vue'
+// import ExerciceDynamique from './components/ExerciceDynamique.vue'
+import ExerciceDynamiqueCss from './components/ExerciceDynamiqueCss.vue'
 </script>
 
 <template>
   <div>
-    <a href="https://vite.dev" target="_blank">
+   <!-- <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
@@ -27,7 +28,8 @@ import ExerciceDynamique from './components/ExerciceDynamique.vue'
      <TpEventBinding />
      <Bug />
      <TpReactivite />
-     <ExerciceDynamique />
+     <ExerciceDynamique />-->
+     <ExerciceDynamiqueCss />
   </div>
 </template>
 
