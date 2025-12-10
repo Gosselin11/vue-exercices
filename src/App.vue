@@ -7,7 +7,8 @@
 // import Bug from './components/Bug.vue'
 // import TpReactivite from './components/TpReactivite.vue'
 // import ExerciceDynamique from './components/ExerciceDynamique.vue'
-import ExerciceDynamiqueCss from './components/ExerciceDynamiqueCss.vue'
+// import ExerciceDynamiqueCss from './components/ExerciceDynamiqueCss.vue'
+import TpStyleDynamique from './components/TpStyleDynamique.vue'
 </script>
 
 <template>
@@ -28,8 +29,9 @@ import ExerciceDynamiqueCss from './components/ExerciceDynamiqueCss.vue'
      <TpEventBinding />
      <Bug />
      <TpReactivite />
-     <ExerciceDynamique />-->
-     <ExerciceDynamiqueCss />
+     <ExerciceDynamique />
+     <ExerciceDynamiqueCss />-->
+     <TpStyleDynamique />
   </div>
 </template>
 
