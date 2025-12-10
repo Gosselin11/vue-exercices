@@ -5,7 +5,8 @@
 // import Counter from './components/Counter.vue'
 // import TpEventBinding from './components/TpEventBinding.vue'
 // import Bug from './components/Bug.vue'
-import TpReactivite from './components/TpReactivite.vue'
+// import TpReactivite from './components/TpReactivite.vue'
+import ExerciceDynamique from './components/ExerciceDynamique.vue'
 </script>
 
 <template>
@@ -26,6 +27,7 @@ import TpReactivite from './components/TpReactivite.vue'
      <TpEventBinding />
      <Bug />
      <TpReactivite />
+     <ExerciceDynamique />
   </div>
 </template>
 
