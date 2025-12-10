@@ -9,7 +9,8 @@
 // import ExerciceDynamique from './components/ExerciceDynamique.vue'
 // import ExerciceDynamiqueCss from './components/ExerciceDynamiqueCss.vue'
 // import TpStyleDynamique from './components/TpStyleDynamique.vue'
-import ExerciceWatchList from './components/ExerciceWatchList.vue'
+// import ExerciceWatchList from './components/ExerciceWatchList.vue'
+import TpConditional from './components/TpConditional.vue'
 </script>
 
 <template>
@@ -32,8 +33,9 @@ import ExerciceWatchList from './components/ExerciceWatchList.vue'
      <TpReactivite />
      <ExerciceDynamique />
      <ExerciceDynamiqueCss />
-     <TpStyleDynamique />-->
-     <ExerciceWatchList />
+     <TpStyleDynamique />
+     <ExerciceWatchList />-->
+     <TpConditional/>>
   </div>
 </template>
 
