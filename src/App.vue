@@ -8,7 +8,8 @@
 // import TpReactivite from './components/TpReactivite.vue'
 // import ExerciceDynamique from './components/ExerciceDynamique.vue'
 // import ExerciceDynamiqueCss from './components/ExerciceDynamiqueCss.vue'
-import TpStyleDynamique from './components/TpStyleDynamique.vue'
+// import TpStyleDynamique from './components/TpStyleDynamique.vue'
+import ExerciceWatchList from './components/ExerciceWatchList.vue'
 </script>
 
 <template>
@@ -30,8 +31,9 @@ import TpStyleDynamique from './components/TpStyleDynamique.vue'
      <Bug />
      <TpReactivite />
      <ExerciceDynamique />
-     <ExerciceDynamiqueCss />-->
-     <TpStyleDynamique />
+     <ExerciceDynamiqueCss />
+     <TpStyleDynamique />-->
+     <ExerciceWatchList />
   </div>
 </template>
 
