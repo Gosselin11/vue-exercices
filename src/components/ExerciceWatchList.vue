@@ -16,9 +16,13 @@
       Pas encore de Films dans votre Liste
     </p>
 
-    <ul>
-      <li v-for="(film, index) in mesFilms" :key="index">
-        {{ film }}
+   <ul>
+      <li
+        v-for="(film, index) in mesFilms"
+        :key="index"
+        @click="supprimerFilm(index)"
+      >
+        {{ index }} - {{ film }}
       </li>
     </ul>
   </div>
@@ -35,5 +39,8 @@ function ajouterFilm () {
     return
   }
   mesFilms.value.push(nomFilm.value.trim())
+}
+function supprimerFilm (index) {
+  mesFilms.value.splice(index, 1)
 }
 </script>
